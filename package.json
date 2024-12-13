@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@hypernym/nuxt-gsap": "^2.4.3",
+    "@nuxt/icon": "^1.10.1",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@pinia/nuxt": "^0.9.0",
+    "gsap": "^3.12.5",
+    "nuxt": "^3.14.1592",
+    "pinia": "^2.3.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.2.1",
+    "autoprefixer": "^10.4.20",
+    "init": "^0.1.2",
+    "npx": "^10.2.2",
+    "nuxt-gsap-module": "^2.0.0",
+    "postcss": "^8.4.49",
+    "sass": "^1.82.0",
+    "tailwindcss": "^3.4.16"
+  }
+}

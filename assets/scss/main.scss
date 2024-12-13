@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "JannaLt";
+  src: url("../fonts/jannaLt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "JannaLt", sans-serif;
+}
+
+main {
+  margin-top: $header-height;
+}
